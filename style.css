@@ -1,0 +1,121 @@
+/*
+colors used:
+primary color on white (Black): #333333;
+Action Colour (red): DB1D0F: #FFFFFF
+*/
+*{
+  box-sizing: border-box;
+}
+
+
+/*
+fonts and headings
+*/
+body{
+  background-color: :#fff;
+  font-family:  'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #444;
+  text-align: left
+}
+
+.bold{
+  font-weight: 700;
+}
+
+h1
+h2
+h3
+h4{
+  line hight: 1.4;
+}
+
+h1{
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align:center;
+
+}
+h2{
+  font-size: 2.25em;
+  font-weight: 700;
+  text-align: center;
+}
+h3{
+  font-size: 2.25em;
+  font-weight: 700;
+
+}
+h4{
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+/*
+buttons and links
+*/
+a{
+  background-color: inherit;
+  color: #2E9BE0
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: inherit;
+  color: #603FCE;
+  text-decoration: underline;
+}
+a:hover,
+a:focus{
+  background-color: inherit;
+  color: #2E9BE0;
+  text-decoration: underline;
+
+}
+
+a:active {
+  background-color: inherit;
+  color: #444;
+  text-decoration: underline;
+}
+
+.button{
+  display: inline-block;
+  background-color: #2E9BE0
+  color: #fff !important;
+  font-weight:400;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.2s opacity;
+}
+
+.botton: hover,
+.botton: focus {
+  color:inherit;
+  background-color: #2E9BE0;
+  opacity: 0.8;
+  text-decoration:none
+}
+
+.botton:active {
+  background-color:  #2E9BE0;
+  color:#fff
+  opacity: 0.8;
+}
+
+.botton.email: hover {
+  background-color: #fff;
+color: #444 !important;
+transition: 0.3s background-color;
+}
+responsive-images {
+  width:100%;  height:  auto;}
+}
+/*
+layout styling - general
+*/
+img {100%
+}
