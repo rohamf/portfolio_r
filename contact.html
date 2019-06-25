@@ -1,469 +1,65 @@
-/*
-colors used:
-primary color on white (Black): #333333;
-Action Colour (red): DB1D0F: #FFFFFF
-*/
-main {
-padding-top: 133px;
-}
-
-
-/*
-fonts and headings
-*/
-header {
-  background-color: :#FFF;
-  font-family: 'Noto Sans', sans-serif;
-  text-align: center;
-  padding: 10px 0;
-}
-
-body{
-  background-color: :#fff;
-  font-family:  'Noto Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.6;
-  color: #444;
-  text-align: center
-}
-
-.bold{
-  font-weight: 700;
-}
-
-h1
-h2
-h3
-h4{
-  line hight: 1.4;
-}
-
-h1{
-  font-size: 2.25em;
-  font-weight: 700;
-  text-align:center;
-
-}
-h2{
-  font-size: 2.25em;
-  font-weight: 700;
-  text-align: center;
-}
-h3{
-  font-size: 2.25em;
-  font-weight: 700;
-
-}
-h4{
-  font-size: 1.35em;
-  font-weight: 400;
-}
-
-/*
-buttons and links
-*/
-a{
-  background-color: inherit;
-  color: #2E9BE0
-  text-decoration: none;
-}
-
-a:visited {
-  background-color: inherit;
-  color: #603FCE;
-  text-decoration: underline;
-}
-a:hover,
-a:focus{
-  background-color: inherit;
-  color: #2E9BE0;
-  text-decoration: underline;
-
-}
-
-a:active {
-  background-color: inherit;
-  color: #444;
-  text-decoration: underline;
-}
-
-.button{
-  display: inline-block;
-  background-color: #2E9BE0
-  color: #fff !important;
-  font-weight:400;
-  padding: 15px 30px;
-  border-radius: 50px;
-  text-decoration: none;
-  transition: 0.2s opacity;
-}
-
-.botton: hover,
-.botton: focus {
-  color:inherit;
-  background-color: #2E9BE0;
-  opacity: 0.8;
-  text-decoration:none
-}
-
-.botton:active {
-  background-color:  #2E9BE0;
-  color:#fff
-  opacity: 0.8;
-}
-
-.botton.email: hover {
-  background-color: #fff;
-color: #444 !important;
-transition: 0.3s background-color;
-}
-responsive-images {
-  width:100%;  height:  auto;}
-}
-/*
-layout styling - general
-*/
-img {100%
-}
-.logo {
-  float: Centered;
-}
-
-nav{
-  float: Centered
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-}
-
-nav a {
-  color: #FFF;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-nav a:hover {
-  color: #000;
-}
-
-header{
-  background-color: #B5B5B5;
-  color: #fff;
-  text-align: center;
-  padding: 10px ;
-  margin: auto;
-  psition:fixed;
-  width: 100%;
-  box-shadow: 0 6px 9px 0 rgba(46,48, 46, 0,5);
-}
-
-nav > ul > li > a {
-  paddind:15px
-  list-style-type: none;
-  padding: 0;
-  font-weight: 700
-  color: #fff
-}
-
-nav> ul > li {
-  display: inline-block;
-}
-#hero span {
-  display: inlin-block;
-}
-
-
-.container{
-  padding: 0 15px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-container-filled{
-  background: #F4F4F4;
-  color: #B5B5B5;
-  padding: 20px;
-}
-
-.container-title {
-  background: #BFCFDB;
-  color: #B5B5B5
-  width: 100%
-  min-height: 298px;
-}
-
-.image-caption {
-  margin: 0;
-  text-align: center;
-  color: #5F6060
-  padding: 20px 5px;
-}
-
-.title {
-  background-color: #B5B5B5;
-  color: #FFF;
-  padding: 30px;
-  margin: 30px;
-}
-
-.chapter{
-  background-color: #E5E5E5
-  color: #B5B5B5;
-  padding: 30px;
-  margin-top: 30px;
-}
-
-.botton-wrapper {
-  text-align: center;
-  margin: 30px;
-}
-
-.button-wrapper {
-  text-align: left;
-  margin: 30px;
-}
-
-.button-wrapper-left {
-  text-align: left;
-  margin: 30px;
-}
-
-.row {
-  margin: 25px;
-}
-
-.row-top {
-  margin-top: 0;
-}
-
-.row::after {
-  content: "" ;
-  clear: both;
-  display: table;
-}
-
-.logo {
-  max-width: 250px;
-}
-
-header > a {
-  line-height: 0 !important;
-}
-
-header > .container > a {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  display: inline;
-}
-
-
-.navtoggle,
-.navtoggle.responsive {
-  position: relative;
-}
-
-.navtoggle li:not(: last-child) {
-  display: none;
-}
-
-
-.navtoggle.responsive nav {
-  padding: 24px;
-}
-
-.navtoggle.responsive li {
-  display: block;
-  padding: 10px;
-  border-top: 1px solid #FFF;
-}
-
-.navtoggle.tesponsive li:last-child {
-  padding: 0 0 10px;
-}
-
-
-.navtoggle li .menu {
-  position: absolute;
-  right: 0;
-  top: 6px;
-  font-size: 30px;
-  padding-right: 0;
-}
-
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav > ul > li > a {
-  padding: 0 1em;
-  text-tranform: uppercase;
-  font-weight: 700;
-  background-color: #B5B5B5 !important;
-  color: #FFF !important;
-}
-
-
-nav > ul > li > a:active {
-  opacity: 0.8;
-  text-decoration: underline;
-  transition: 0.2s;
-}
-
-nav > ul > li > a: active {
-  opacity: 0.8;
-}
-
-main {
-  padding-top: 60px;
-}
-
-footer {
-  background-color: #B5B5B5;
-  color: #FFF
-  text-align: center;
-  padding: 25px;
-  margin: 25px auto;
-  width: 100%
-}
-
-footer > .container > p > a {
-  background: inherit;
-  color: #FFF !important;
-  font-weight: 700;
-}
-
-footer > .container > p > a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-  transition: 0.2s;
-}
-
-
-footer > .container > p > a:active {
-  opacity: 0.8;
-}
-
-svg.icon {
-  fill: #FFF;
-}
-
-svg.icon:hover {
-  fill: #DB1D0F;
-  transition: 0.3s fill;
-}
-
-.icon {
-  max-width: 60px;
-}
-
-.social {
-  margin: 30px auto;
-}
-
-/*
-Home Page - index.html
-*/
-
-#hero {
-  background-color: #B5B5B5;
-  padding: 100px 0;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-#hero h1 {
-  color: #FFFFFF;
-  padding: 0 15px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#hero p {
-  color: #FFFFFF;
-}
-
-#hero .container {
-  max-width: 1000px;
-}
-
-#work .row {
-  padding-bottom: 25px;
-}
-
-#work h2 {
-  margin: 1.5em;
-}
-
-#work h3 {
-  margin-top: 1.5em;
-}
-
-
-/*
-About - about.html
-*/
-#me h2 {
-  margin: 0;
-}
-
-#me .row {
-  padding-bottom: 15px;
-}
-
-#me .button {
-  text-align: center !important;
-}
-
-#me .button-wrapper {
-  text-align: center;
-}
-
-#about-experiment img {
-  text-align: center;
-  width: auto;
-}
-
-#about-experiment .row-top {
-  text-align: center;
-  min-height: 298px;
-}
-
-#about-experiment .row {
-  margin-top: 0;
-}
-
-
-/*
-
-.hero {
-  background-color: #FFF;
-  color: #B5B5B5;
-  padding: 20px;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-.hero > .container > h1 {
-  margin: 0;
-  padding: 0.67em 0;
-}
-
-.step {
-  padding: 20px 0;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Roham Fayazi"
+    <mata name="description" content="UX Design Portfolio Site of Roham Fayazi.">
+    <title>contact Roham Fayazi</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href=css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <header>
+
+      <div class>
+        <div= "id= Get in touch">
+        <a href="#">
+      <img class="logo" src=img/logo_rohamf.png alt="Roham Fayazi UX Design Logo">
+    </a>
+      <nav>
+      <ul>
+        <li>
+        <a href="index.html">Work</a>
+
+
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+        </nav>
+        </div>
+      </header>
+      <footer id="contact">
+        <h1>Get in touch</h1>
+        <p>You can find me via</p>
+        <p>
+          call: "
+          <a href="tel:+491739052641">+491739052641</a>
+            </p>
+            <p>Send me an e-mail
+              </p>
+              <div>
+                <a href="mailto:rohamfayazi@gmail.com">Email me</a>
+                </div>
+                <p> Visit my instagram page
+                  </p>
+                  <div>
+
+                      <i class="fab fa-instagram"></i>
+                      <a href="https://www.instagram.com/roham128/?hl=de" target="_blank">
+<img src="https://image.flaticon.com/icons/svg/733/733614.svg" width="20" height="20">
+</a>
+
+                      <p>
+                        " coyright 2019"
+                        <span>All rights reserved.</span>
+                        </p>
+                        </footer>
+                        </body>
+                        </html>
