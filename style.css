@@ -13,10 +13,7 @@ fonts and headings
 */
 header {
   background-color: :#FFF;
-  font-family: 'Noto Sans', sans-serif;
-  text-align: center;
-  padding: 0px;
-}
+  }
 
 body{
   background-color: :#fff;
@@ -25,7 +22,7 @@ body{
   font-weight: 300;
   line-height: 1.6;
   color: #444;
-  text-align: center
+  text-align: center;
 }
 
 .bold{
@@ -135,7 +132,7 @@ pan {
 header {
   background-color: #ffffff;
   padding: 0px;
-  margin: 0;
+  margin: 10px;
   position: fixed;
   width: 100%
   -webikit-box-shadow: 0px 1px 2px 0px rgba(46, 48, 46, 0.5)
@@ -149,10 +146,11 @@ header {
 
 .logo {
   float: Centered;
+  padding: 4px;
 }
 
 nav{
-  float: Centered
+  float: Centered;
 }
 
 nav ul {
@@ -164,7 +162,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 23px;
+  padding-top: 0px;
 }
 
 nav a {
@@ -182,7 +180,10 @@ header{
   background-color: #B5B5B5;
   color: #fff;
   text-align: center;
-  padding: 10px ;
+  padding-top: 0px ;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
   margin: auto;
   psition:fixed;
   width: 100%;
@@ -288,6 +289,7 @@ header > .container > a {
   padding: 0;
   border: 0;
   display: inline;
+  width: 100%;
 }
 
 
@@ -410,7 +412,7 @@ Home Page - index.html
 
 #hero h1 {
   color: #FFFFFF;
-  padding: 0 15px;
+  padding-top: 40px 0;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -449,7 +451,6 @@ h1 {
 
 
 
-/*
 
 .hero {
   background-color: #FFF;
