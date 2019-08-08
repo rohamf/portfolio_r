@@ -268,6 +268,10 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
+@keyframes logo_roham<.png image {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
 /**
  * It's recommended that you don't attempt to style these elements.
  * Firefox's implementation doesn't respect box-sizing, padding, or width.
