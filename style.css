@@ -268,7 +268,7 @@ input::-moz-focus-inner {
 input {
   line-height: normal;
 }
-
+.w-container>a>img {
 div {
   width: 100px;
   height: 100px;
@@ -288,6 +288,7 @@ div {
 @keyframes mymove {
   from {top: 0px;}
   to {top: 200px;}
+}
 }
 /**
  * It's recommended that you don't attempt to style these elements.
