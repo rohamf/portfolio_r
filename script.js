@@ -1,5 +1,5 @@
 
-function(t) {
+! function(t) {
   var e = {};
 
   function n(r) {
